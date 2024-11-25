@@ -1,8 +1,5 @@
 import javax.swing.*;
-import java.awt.*;
-import java.awt.event.*;
 import java.io.File;
-import java.util.List;
 
 public class FileListerWorker extends SwingWorker<Void, String> {
     private JTextArea textArea;
